@@ -1,2 +1,9 @@
 [build]
     functions = "netlify/funciones"
+     command = "npm run build"
+     publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "14"
+  YARN_VERSION = "1.222.5"
+  NPM_VERSION = "6.14.6"

@@ -1,8 +1,17 @@
 {
+  "name": "tu-proyecto",
+  "version": "1.0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node build-backend.js && node build-frontend.js",
+    "build-backend": "echo 'Building backend...'",
+    "build-frontend": "echo 'Building frontend...'"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "firebase": "^11.8.1",
     "firebase-admin": "^13.4.0",
     "serverless-http": "^3.2.0"
   }
