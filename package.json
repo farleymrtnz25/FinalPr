@@ -1,13 +1,13 @@
 {
   "name": "tu-proyecto",
-  "version": "1.0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "node build-backend.js && node build-frontend.js",
-    "build-backend": "echo 'Building backend...'",
-    "build-frontend": "echo 'Building frontend...'"
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "echo 'Building backend...'",
+    "build:frontend": "echo 'Building frontend...'"
   },
   "dependencies": {
     "cors": "^2.8.5",
