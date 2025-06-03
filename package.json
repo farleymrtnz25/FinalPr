@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "mkdir -p dist && cp ./index.html ./dist/index.html",
-    "build:backend": "echo 'Building backend...'",
-    "build:frontend": "echo 'Building frontend...'"
+    "build": "mkdir -p dist && cp ./index.html ./dist/index.html"
   },
   "dependencies": {
     "cors": "^2.8.5",
