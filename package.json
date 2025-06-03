@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm run build:backend && npm run build:frontend",
+    "build": "mkdir -p dist && cp ./index.html ./dist/index.html",
     "build:backend": "echo 'Building backend...'",
-    "build:frontend": "mkdir -p dist && echo '<h1>a mi amigo yeison le gusta el porno</h1>' > dist/index.html"
+    "build:frontend": "echo 'Building frontend...'"
   },
   "dependencies": {
     "cors": "^2.8.5",
